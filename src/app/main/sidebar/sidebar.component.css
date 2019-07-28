@@ -1,0 +1,13 @@
+:host(.sidebar) {
+    position: absolute;
+    display: flex;
+    width: 260px;
+    min-height: 92vh;
+}
+.nav-list{
+    margin-right:-15px;
+    margin-left:-15px;
+}
+.outline-none{
+    outline: none !important;
+}

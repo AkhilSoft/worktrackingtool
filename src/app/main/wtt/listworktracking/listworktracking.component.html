@@ -1,0 +1,25 @@
+
+<div class="container m-2 mt-5">
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th scope="col">Date</th>
+        <th scope="col">Name</th>
+        <th scope="col">Activity</th>
+        <th scope="col">SubActivity</th>
+        <th scope="col">Time Used</th>
+        <th scope="col">Comments</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let rec of records">
+        <td>{{rec.date}}</td>
+        <td>{{rec.name}}</td>
+        <td>{{rec.activity}}</td>
+        <td>{{rec.subActivity}}</td>
+        <td>{{rec.timeUsed}}</td>
+        <td>{{rec.comment}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

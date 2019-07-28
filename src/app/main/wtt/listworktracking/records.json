@@ -1,0 +1,58 @@
+[
+    {
+        "date":"20-07-2019",
+        "name":"Sai",
+        "activity":"Ticketing",
+        "subActivity":"Service Request",
+        "timeUsed":"90",
+        "comment":"worked on service request"
+    },
+    {
+        "date":"21-07-2019",
+        "name":"Akhil",
+        "activity":"Development",
+        "subActivity":"Coding",
+        "timeUsed":"120",
+        "comment":"worked on time module"
+    },
+    {
+        "date":"22-07-2019",
+        "name":"Kumar",
+        "activity":"Development",
+        "subActivity":"Code Review",
+        "timeUsed":"60",
+        "comment":"review on date module"
+    },
+    {
+        "date":"22-07-2019",
+        "name":"Sai",
+        "activity":"Development",
+        "subActivity":"Code Review",
+        "timeUsed":"30",
+        "comment":"worked on Code Review"
+    },
+    {
+        "date":"23-07-2019",
+        "name":"Krishna",
+        "activity":"Break",
+        "subActivity":"Extracurricular activity",
+        "timeUsed":"120",
+        "comment":""
+    },
+    {
+        "date":"23-07-2019",
+        "name":"Sai",
+        "activity":"Break",
+        "subActivity":"Extracurricular activity",
+        "timeUsed":"120",
+        "comment":""
+    },
+    {
+        "date":"21-07-2019",
+        "name":"Rahul",
+        "activity":"Break",
+        "subActivity":"Lunch",
+        "timeUsed":"120",
+        "comment":"Lunch"
+    }
+]

@@ -1,0 +1,21 @@
+<div class="container">
+
+    <div class=" text-center mt-3">
+        <img src="assets/img/man.jpg" width="150" height="150" class="rounded" alt="">
+    </div>
+    <div class="row justify-content-center mt-1">
+        <p class="mt-1 font-weight-bold">{{user?.name}}</p>
+        <!-- <img src="assets/img/logout.png" width="30" height="30" class="rounded" alt=""> -->
+    </div>
+
+    <div class="list-group nav-list mt-2">
+        <button type="button" 
+            *ngFor="let s of sideBarMenu" 
+            class="list-group-item outline-none list-group-item-action" 
+            (click)="navigateTo(s.path)"
+            [class.active]="isActive(s.path)">
+            {{s.label}}
+        </button>
+    </div>
+
+</div>
